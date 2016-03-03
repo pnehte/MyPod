@@ -10,10 +10,9 @@ import UIKit
 
 public class PrintString: NSObject {
     
-    public func printString(){
+    public func printString(string:String){
         
-        let s:String = ""
-        print(s)
+        print(string)
     }
     
 }
