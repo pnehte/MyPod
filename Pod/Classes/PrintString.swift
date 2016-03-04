@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
+import Alamofire
 public class PrintString: NSObject {
     
     public func printString(string:String){
         
+        print(Alamofire.RETURN)
         print(string)
     }
     

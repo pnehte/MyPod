@@ -1,7 +1,10 @@
 PODS:
-  - MyPod (0.1.0)
+  - Alamofire (3.2.1)
+  - MyPod (0.0.1):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - MyPod (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,6 +12,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MyPod: b115185208d2f30451ec38f41426af020d7f7780
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  MyPod: c3648f78836bf9ff4fe0f4bad36f5da7a054899b
 
 COCOAPODS: 0.39.0
